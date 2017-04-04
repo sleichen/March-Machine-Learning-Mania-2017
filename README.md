@@ -1,7 +1,7 @@
 # March Machine Learning Mania 2017
 This was a competition on Kaggle.com to successfully predict the outcomes of the 2017 NCAA Basketball Tournament. All of the data I used, as well as my submissions, are in the .csv files. The Jupyter notebook gives the actual model, and is meant to be readable. I used Python (mostly pandas and sklearn) to do the analysis.
 
-This was my first real project in data science, and as such there's nothing too sophisticated. I ended up finishing 198/442, with a LogLoss of 0.515497. That's right in line with my expectations based on testing, and overall I'm happy with it. I've also got some things to keep in mind for next year:
+This was my first real project in data science, and as such there's nothing too sophisticated. I ended up finishing 198/442, with a LogLoss of 0.515497. That's right in line with (or even a little better than) my expectations based on testing, and overall I'm happy with it. I've also got some things to keep in mind for next year:
 
 1) Take the tournament structure into account. To some extent this is already implicit in the seed data, but I think more can be done with it. This could make an especially big difference once we get to the Final Four, which are the most inherently uncertain games to predict.
 
